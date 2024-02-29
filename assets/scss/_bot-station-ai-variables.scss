@@ -1,0 +1,22 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Color system
+
+// scss-docs-start color-variables
+$chatbot-primary:    #667CEC !default;
+$chatbot-primary-light: #A4A7D9 !default;
+$chatbot-primary-dark: #3136A8 !default;
+$chatbot-footer: #202942 !default;
+// scss-docs-end color-variables
+
+// scss-docs-start colors-map
+$colors: (
+  "chatbot-primary": $chatbot-primary,
+  "chatbot-primary-light": $chatbot-primary-light,
+  "chatbot-primary-dark": $chatbot-primary-dark,
+  "chatbot-footer": $chatbot-primary-dark,
+) !default;
+// scss-docs-end colors-map
