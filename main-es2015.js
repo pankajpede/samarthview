@@ -47,7 +47,7 @@ const routes = [
     { path: 'training-home', component: _pages_views_training_training_home_training_home_component__WEBPACK_IMPORTED_MODULE_2__["TrainingHomeComponent"] },
     { path: 'training-course-details-ux', component: _pages_views_training_training_course_details_ux_training_course_details_ux_component__WEBPACK_IMPORTED_MODULE_3__["TrainingCourseDetailsUxComponent"] },
     { path: '**', component: _pages_views_training_training_home_training_home_component__WEBPACK_IMPORTED_MODULE_2__["TrainingHomeComponent"] },
-    { path: '', redirectTo: 'allInHome', pathMatch: 'full' },
+    { path: '', redirectTo: 'training-home', pathMatch: 'full' },
 ];
 class AppRoutingModule {
 }

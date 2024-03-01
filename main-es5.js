@@ -74,7 +74,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       component: _pages_views_training_training_home_training_home_component__WEBPACK_IMPORTED_MODULE_2__["TrainingHomeComponent"]
     }, {
       path: '',
-      redirectTo: 'allInHome',
+      redirectTo: 'training-home',
       pathMatch: 'full'
     }];
 
